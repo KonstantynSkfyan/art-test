@@ -3,13 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
       <div class="container">
         <div class="logo">
-          <img src="images/header/Star1.png" alt="star" />
+          <ul class="logo-list">
+            <li><img src="images/header/Star1.png" alt="star" /></li>
+            <li><a class="logo-link" href="./index.html">Ink. House</a></li>
+          </ul>
+        </div>
+        <div class="header-menu">
+          <ul class="menu-button">
+            <li>
+              <button class="button" type="button">
+                <img src="./images/header/list.svg" alt="lines" />
+              </button>
+            </li>
+            <li>
+              <button class="button" type="button">
+                <img src="./images/header/cart.svg" alt="cart" />
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
